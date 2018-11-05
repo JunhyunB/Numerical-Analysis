@@ -5,7 +5,7 @@ iter = 0; xr = xl; ea = 100;
 while(1)
     xrold = xr;
     fl = func(xl);
-    fu = func(xu,);
+    fu = func(xu);
     xr = xu - fu * (xl - xu) / (fl - fu);
     iter = iter + 1;
     if xr ~= 0
