@@ -9,6 +9,7 @@ function [root, ea, iter] = bisection(func, xl, xu, es, maxit)
 %  root = real root
 %  ea = approximate relative error (%)
 %  iter = number of iterations
+iter = 0; xr = xl; ea = 100;
 while(1)
     xrold = xr;
     xr = (xl + xu) / 2;
