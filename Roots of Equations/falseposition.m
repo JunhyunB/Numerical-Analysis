@@ -1,4 +1,4 @@
-function [root, ea, iter] = falseposition(func, xl, xu, es, maxit)
+function [root, ea] = falseposition(func, xl, xu, es, maxit)
 
 iter = 0; xr = xl; ea = 100;
 

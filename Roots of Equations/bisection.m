@@ -1,4 +1,4 @@
-function [root, ea, iter] = bisection(func, xl, xu, es, maxit)
+function [root, ea_] = bisection(func, xl, xu, es, maxit)
 % bisection method
 % input:
 %  func = name of function
@@ -10,6 +10,7 @@ function [root, ea, iter] = bisection(func, xl, xu, es, maxit)
 %  ea = approximate relative error (%)
 %  iter = number of iterations
 iter = 0; xr = xl; ea = 100;
+ea_ = []
 while(1)
     xrold = xr;
     xr = (xl + xu) / 2;
@@ -28,5 +29,6 @@ while(1)
     if ea <= es | iter >= maxit
         break
     end
+    ea_ = [ea_ ea]
 end
 root = xr;
