@@ -87,10 +87,5 @@ while(1)
 ## 2. Linear Equation  
 #### - [Naive Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
 
-<<<<<<< HEAD
 ## 3. Optimizaiton  
 #### - [Golden Section Search](https://en.wikipedia.org/wiki/Golden-section_search)
-=======
-### 3. Optimizaiton  
-#### - Golden Section Search
->>>>>>> master
