@@ -43,12 +43,6 @@ while(1)
     elseif test > 0
         xl = xr;
 ```
-=======
-### [1. Roots of Equations](https://github.com/JunhyunB/Numerical-Analysis/blob/master/Roots%20of%20Equations/README.md)
-#### - Bisection Method  
-Let $\f(x)$ be a given function, continuous on an interval $[a,b]$, such that $f(a)f(b)<0$
-
->>>>>>> master
 
 #### - [Fixed Position Iteration](https://en.wikipedia.org/wiki/Fixed-point_iteration)
 main algorithm
