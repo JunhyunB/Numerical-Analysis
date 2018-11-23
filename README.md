@@ -1,6 +1,6 @@
 # Numerical Analysis
 
-## This is the repository for scratch of Numerical Analysis with MATLAB.
+ This is the repository for scratch of Numerical Analysis with MATLAB.
 
 # Table of Contents
 [1. Roots of Equations](#1-roots-of-equationshttpsgithubcomjunhyunbnumerical-analysisblobmaster1rootsofequationsreadmemd)
@@ -13,6 +13,7 @@
 [2. Linear Equation](#2-linear-equation)
 - [Naive Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
 
+<<<<<<< HEAD
 [3. Optimizaiton](#3-optimizaiton)
 - [Golden Section Search](https://en.wikipedia.org/wiki/Golden-section_search)
 
@@ -43,6 +44,12 @@ while(1)
     elseif test > 0
         xl = xr;
 ```
+=======
+### [1. Roots of Equations](https://github.com/JunhyunB/Numerical-Analysis/blob/master/Roots%20of%20Equations/README.md)
+#### - Bisection Method  
+Let $\f(x)$ be a given function, continuous on an interval $[a,b]$, such that $f(a)f(b)<0$
+
+>>>>>>> master
 
 #### - [Fixed Position Iteration](https://en.wikipedia.org/wiki/Fixed-point_iteration)
 main algorithm
@@ -81,5 +88,10 @@ while(1)
 ## 2. Linear Equation  
 #### - [Naive Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
 
+<<<<<<< HEAD
 ## 3. Optimizaiton  
 #### - [Golden Section Search](https://en.wikipedia.org/wiki/Golden-section_search)
+=======
+### 3. Optimizaiton  
+#### - Golden Section Search
+>>>>>>> master
