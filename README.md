@@ -13,7 +13,6 @@
 [2. Linear Equation](#2-linear-equation)
 - [Naive Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
 
-<<<<<<< HEAD
 [3. Optimizaiton](#3-optimizaiton)
 - [Golden Section Search](https://en.wikipedia.org/wiki/Golden-section_search)
 
